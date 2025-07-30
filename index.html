@@ -2,23 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <input type="textbox" placeholder="firstname"Class="ClassForm"><br>
+    <div>
+    <h1>Registration Form</h1>
+    <div>
+        <label for="fullname">full Name  :</label>
+        <input type="text" id="fname" class="classform" placeholder="Enter Your Full Name">
+    </div>
+        <p class="hidden" id="hiddenfullname">Enter proper name</p><br><br>
 
-    <input type="textbox" placeholder="lastname"Class="ClassForm"><br>
-    
-    <input type="textbox"  placeholder="email"Class="ClassForm"><br>
+    <div>
+        <label for="age">AGE :</label>
+        <input type="text" id="age" class="classform" placeholder="Enter Your age">
+    </div>
+        <p class="hidden" id="hiddenage">Enter correct AGE</p><br><br>
 
-    <input type="textbox"  name="ph no" placeholder="phno"Class="ClassForm"><br>
+    <div>
+        <label for="dob">DOB :</label>
+        <input type="date" id="dob" class="classform" placeholder="Enter Your DOB"><br><br>
+    </div>
 
-    <input type="textbox"  placeholder="address"Class="ClassForm">
-    <label>password</label>
-    <input type="password" placeholder="password" id="password">
-    
+    <div>
+        <label for="phno">phone Number :</label>
+        <input type="text" id="phno" class="classform" placeholder="Enter Your Mobile Number">
+    </div>    
+        <p class="hidden" id="hiddennumber">Enter valid phone number</p><br><br>
+ 
+    <div>  
+        <label for="email">email :</label>
+        <input type="email" id="email" class="classform" placeholder="Enter Your email">
+    </div>
+        <p class="hidden" id="hiddenemail">Enter your email</p><br><br>
+ 
+    <div>
+        <label for="gender">Gender :</label>
+        <input type="text" id="gender" class="classform" placeholder="Enter Your gender"><br><br>
+    </div>
+
+        <button onclick="submit()">Submit</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
