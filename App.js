@@ -1,10 +1,10 @@
-import CounterExample from "./useEffect";
+import Name from './useState'
 
 function App(){
   return(
     <div>
-      <CounterExample/>
+      <Name/>
       </div>
-  );
+  )
 }
 export default App;
